@@ -1,0 +1,14 @@
+#ifndef STRING_H
+#define STRING_H
+
+// Сравнение двух строк: возвращает 0, если они абсолютно одинаковы
+int strcmp(const char *s1, const char *s2);
+
+// Длина строки
+int strlen(const char *str);
+
+int tokenize(char *buf, char **argv, int max_args);
+
+char *strcat(char *dest, const char *src);
+
+#endif
